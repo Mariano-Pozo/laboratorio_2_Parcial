@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "3bc6lFFY5JCmkLl72OelIubV0yJHhcwwvLaXxKhpAW4VgD0LFa0byXDmoz12ey3ZsXlobOstNqf3TvloGZU5uw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Inoue\\Desktop\\pp1_labo2\\Entidades\\form\\form.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Inoue\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Inoue\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Inoue\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Inoue\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}
