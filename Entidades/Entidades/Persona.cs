@@ -1,4 +1,6 @@
-﻿namespace Entidades
+﻿using System.Text;
+
+namespace Entidades
 {
     public abstract class Persona
     {
@@ -24,7 +26,7 @@
         {
             get
             {
-                return DateTime.Today.AddTicks(-this.nacimiento.Ticks).Year - 1
+                return DateTime.Today.AddTicks(-this.nacimiento.Ticks).Year - 1;
             }
         }
         public string NombreCompleto 
@@ -35,12 +37,17 @@
             }
         }
 
-        internal abstract string FichaExtra()
-        {
-        }
+        internal abstract string FichaExtra();
 
-        public string FichaPersonal (Persona p)
+        public string FichaPersonal ()//implementar  "Persona p"
         {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine(NombreCompleto);
+            sb.AppendLine($"EDAD: {Edad}");
+            //sb.AppendLine($"BARRIO: {barrioRecidencia}");
+            sb.AppendLine(FichaExtra());
+            return sb.ToString();
+
             
         }
 
