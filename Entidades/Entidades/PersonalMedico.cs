@@ -36,9 +36,10 @@ namespace Entidades
 
         //public static Consulta operator +(PersonalMedico doctor, Paciente paciente)
         //{
-            //    Consulta nuevaConsulta = new Consulta(doctor.consultas, paciente);
-            //return PersonalMedico.consultas.Add(nuevaConsulta);
-        //    return;
+        //    Consulta nuevaConsulta = new Consulta(DateTime.Now, paciente);
+        //    doctor.consulta.Add(nuevaConsulta);
+        //    return nuevaConsulta;
+        //
         //}
     }
 }
